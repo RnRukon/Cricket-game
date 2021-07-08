@@ -34,7 +34,7 @@
 }
 
 .field:hover .ball {
-    transform: translate(54vw, -13vw) scale(1);
+    transform: translate(52vw, -15vw) scale(1);
     width: 3vw;
 }
 
