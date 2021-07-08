@@ -49,3 +49,7 @@
     top: 12vw;
     left: 40vw;
 }
+
+.field:hover .balling {
+    transform: rotate(50deg);
+}
