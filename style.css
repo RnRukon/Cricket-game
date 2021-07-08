@@ -1,0 +1,51 @@
+.field {
+    border: 2px solid gold;
+    height: 30vw;
+    background-image: url(img/stadium1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.stamp {
+    width: 7vw;
+    height: 15vw;
+    position: relative;
+    top: 10vw;
+}
+
+.bat {
+    width: 15vw;
+    position: relative;
+    top: 3vw;
+}
+
+.ball {
+    width: 5vw;
+    position: relative;
+    top: 11vw;
+    left: 7vw;
+    transition: transform 1s ease-out .2s;
+    z-index: 1;
+}
+
+.bat {
+    transition: transform .2s ease-in;
+}
+
+.field:hover .ball {
+    transform: translate(54vw, -13vw) scale(1);
+    width: 3vw;
+}
+
+.field:hover .bat {
+    transform: rotate(-80deg);
+    transform-origin: top right;
+}
+
+.balling {
+    width: 30vw;
+    position: relative;
+    top: 12vw;
+    left: 40vw;
+}
